@@ -11,7 +11,10 @@ Additional MacOS Specifics:
 - gnupg (https://gnupg.org/)
 - Perl-Digest-SHA (https://metacpan.org/pod/Digest::SHA)
 
-Hint: See the one line command below if you don't want to install the dependencies manually.
+Hint: You can also run the dependencies script (dependencies.sh) to install all the dependencies automatically.
+```bash
+./dependencies.sh
+```
 
 ## Quickstart
 To get a full node started using a Reth + Lighthouse client pair:
@@ -106,6 +109,9 @@ Use the --help (-h) option to see all command line options:
 
   -h, --help                                Display this help message and exit
   ```
+
+## Debugging
+For any debugging logs, you can checkout debug.log in the primary directory.
 
 ## Thanks
 Special thanks for the [BuildGuild team](https://buidlguidl.com/) for starting this initiative. If you also want to run an ethereum node, check the original client [here](https://github.com/BuidlGuidl/buidlguidl-client). 
