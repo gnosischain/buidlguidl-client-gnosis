@@ -82,7 +82,7 @@ Use the --help (-h) option to see all command line options:
   node index.js --help
 
   -e, --executionclient <client>            Specify the execution client ('reth' or 'geth')
-                                            Default: reth
+                                            Default: geth
 
   -c, --consensusclient <client>            Specify the consensus client ('lighthouse' or 'prysm')
                                             Default: lighthouse
